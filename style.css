@@ -21,6 +21,12 @@
 .animation{
     animation-duration: 10s;
 }
+@media  only screen and (max-width:688px){
+    .user-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 
 @media  only screen and (max-width:688px){
     .welcome-message{
