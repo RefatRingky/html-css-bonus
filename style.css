@@ -1,0 +1,41 @@
+.user-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.user{
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-message{
+    background-color: cornflowerblue;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animation{
+    animation-duration: 10s;
+}
+
+@media  only screen and (max-width:688px){
+    .welcome-message{
+        background-color: coral;
+        height: 400px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .welcome-message{
+        background-color: rgb(235, 22, 189);
+        height: 600px;
+        text-align: right;
+        font-size: 40px;
+    }
+}
+    
+    
